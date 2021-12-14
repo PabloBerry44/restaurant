@@ -1,0 +1,113 @@
+h1
+{
+    width: 84vw;
+    margin-left: 8vw;
+}
+h2
+{
+    margin-top: 5vh;
+    width: 84vw;
+    margin-left: 8vw;
+}
+
+.history_paragraph
+{
+    display: block;
+    width: 84vw;
+    margin-left: 8vw;
+
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+}
+
+.old_photo
+{
+    width: 84vw;
+    margin-left: 8vw;
+    margin-top: 5vh;
+    border-radius: .5em;
+
+    box-shadow:
+    2.8px 1.3px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 3.1px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 5.8px 10px rgba(0, 0, 0, 0.035),
+    22.3px 10.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 19.2px 33.4px rgba(0, 0, 0, 0.05),
+    100px 46px 80px rgba(0, 0, 0, 0.07);
+}
+
+.image_title
+{
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1200px)
+{
+    h1
+    {
+        display: block;
+        margin: auto;
+        width: 75vw;
+    }
+    h2
+    {
+        display: block;
+        margin: auto;
+        width: 75vw;
+        margin-top: 5vh;
+    }  
+    .history_paragraph
+    {
+        display: block;
+        width: 75vw;
+        margin: auto;
+        font-size: 1.5rem;
+    }
+    
+    .old_photo
+    {
+        width: 75vw;
+        margin: auto;
+        display: block;
+        margin-top: 5vh;
+    } 
+}
+
+@media only screen and (min-width: 1200px)
+{
+    h2, h1
+    {
+        display: block;
+        margin-left: 2vw;
+        width: 40vw;
+    }
+    h2
+    {
+        margin-top: 5vh;
+    }
+    .history_paragraph
+    {
+        display: block;
+        margin-left: 2vw;
+        margin-top: 2vh;
+        width: 40vw;
+        font-size: 1.5rem;
+
+        float: left;
+    }
+
+    .div_old_photo
+    {
+        width: 40vw;
+        margin-left: 56vw;
+    }
+    
+    .old_photo
+    {
+        margin: 0%;
+        padding: 0%;
+        width: 40vw
+    } 
+}

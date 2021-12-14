@@ -1,0 +1,185 @@
+#switch
+{
+    display: block;
+    margin: auto;
+    margin-top: 5vh;
+    width: 85vw;
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: .5em;
+    cursor: pointer;
+    border: 2px solid black;
+
+    border-radius: 5px;
+
+    font-size: .8rem;
+    font-weight: 700;
+
+    transition: 300ms;
+}
+
+    #switch:hover
+    {
+        background: rgb(255, 255, 255);
+        color: black;
+    }
+
+.title_contact
+{
+    margin-bottom: 3vh;
+}
+#form
+{
+    width: 85vw;
+    margin: auto;
+    margin-top: 2em;
+    height: 22em;
+
+    font-size: 1.3rem;
+
+    display: block;
+
+    border-left: 2px solid rgb(184, 184, 184);
+    border-right: 2px solid rgb(184, 184, 184);
+
+    padding-left: 1em;
+    padding-right: 1em;
+
+    line-height: 2em;
+
+    margin-bottom: 5em;
+
+}
+
+    form
+    {
+        width: 100%;
+    }
+
+        #input_text, #message
+        {
+            border: 2px solid rgb(184, 184, 184);
+            border-radius: .5em;
+            padding: .5em;
+            resize: none;
+            width: 100%;
+
+            font-size: 1rem;
+        }
+
+        #message
+        {
+            height: 5em;
+        }
+
+        #submit
+        {
+            display: block;
+            margin: auto;
+            margin-top: 2em;
+            padding: .5em;
+            border-radius: .5rem;
+            width: 100%;
+
+            background: black;
+            color: white;
+            border: 2px solid black;
+
+            cursor: pointer;
+        
+            font-size: .8rem;
+            font-weight: 700;
+        
+            transition: 300ms;
+        }
+
+        #submit:hover
+        {
+            cursor: pointer;
+            background: white;
+            color: black;
+        }
+
+
+#list
+{
+    width: 85vw;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 14em;
+    height: 13em;
+
+    font-size: 1.3rem;
+
+    display: none;
+
+    border-left: 2px solid rgb(184, 184, 184);
+    border-right: 2px solid rgb(184, 184, 184);
+
+    padding-left: 1em;
+    padding-right: 1em;
+
+}
+
+
+#contact_row
+{
+    height: 3em;
+    margin-top: 3.5%;
+    width: 100%;
+
+    transition: 100ms;
+}
+    #contact_row:hover
+    {
+        transform: translateX(1.5%);
+    }
+
+    #icon4, #icon5, #icon6
+    {
+        width: 2em;
+        border-radius: 20%;
+        float: left;
+        margin-right: 2%;
+    }
+    #contact_name
+    {
+        line-height: 2em;
+        font-size: 1.05rem;
+        float: left;
+        margin-top: .3em;
+    }
+    a, a:visited
+    {
+        text-decoration: none;
+        color: black;
+    }
+
+    #google_maps
+    {
+        width: 100vw;
+        height: 50vh;
+        filter: grayscale(1);
+        border-top: 2px solid black;
+    }
+
+
+@media only screen and (min-width: 700px) and (max-width: 1200px)
+{
+
+    #form, #list, #switch
+    {
+        width: 45vw;
+    }
+
+}
+
+@media only screen and (min-width: 1200px)
+{
+
+    #form, #list, #switch
+    {
+        width: 30vw;
+    }
+
+}

@@ -1,0 +1,110 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* NAVIGATION BAR */
+
+::-webkit-scrollbar 
+{
+    display: none;
+}
+
+
+.navbar
+{
+    background: black;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+    .start, .menu, .gallery, .contact
+    {
+        width: 25vw;
+        padding-top: 1em; padding-bottom: 1em;
+
+        font-size: .8rem;
+        font-weight: 500;
+        color: white;
+
+        background: black;
+
+        transition: 300ms;
+        cursor: pointer;
+    }
+    .start:hover, .menu:hover, .lunches:hover, .gallery:hover, .contact:hover
+    {
+        background: white;
+        color: black;
+    }
+
+
+/* FOOTER */
+
+footer
+{
+    background-color: black;
+    font-size: 1.2rem;
+    padding: 2em;
+    clear: both;
+}
+
+.title
+{
+    font-size: 1.7rem;
+    color: white;
+}
+
+#social1, #social2
+{
+height: 2em;
+margin-top: 3em;
+width: 10em;
+cursor: pointer;
+
+transition: 100ms;
+
+}
+
+    #social1:hover, #social2:hover
+    {
+    transform: translateX(1.5%);
+    }
+
+    #icon1, #icon2
+    {
+    width: 2em;
+    border-radius: 20%;
+    float: left;
+    }
+
+    #social_name
+    {
+    float: left;
+    margin-left: 5%;
+    color: white;
+    line-height: 2em;
+    }
+
+/* FOR DESKTOP */
+
+@media only screen and (min-width: 700px)
+{
+    .start, .menu, .lunches, .gallery, .contact
+    {
+        font-size: 1.2rem;
+    }
+
+    footer
+    {
+        padding: 5em;
+    }
+    .title
+    {
+        font-size: 2rem;
+    }
+}
