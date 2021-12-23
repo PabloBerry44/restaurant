@@ -25,24 +25,18 @@
 
     <div id="form">
         <h1 class="title_contact">Email us!</h1>
-
-        <form action="mailto:pawel.borowiec22@gmail.com" method="post" enctype="text/plain">
-
+        
+        <form action="https://formsubmit.co/pawel.borowiec22@gmail.com" method="POST">
+            <input type="hidden" name="_next" value="thanks.html">
+            <input type="hidden" name="_subject" value="New submission!">
             <p>Name:</p>
-            <input id="input_text" type="text" name="name">
-            <br>
-
+            <input id="input_text" type="text" name="Name" placeholder="John Example" required>
             <p>Your e-mail:</p>
-            <input id="input_text" type="email" name="email">
-            <br>
-
+            <input id="input_text" type="email" name="Email" placeholder="example@gmail.eu" required>
             <p>Message:</p>
             <textarea name="message" id="message" cols="30" rows="10"></textarea>
-            <br>
-
-            <input id="submit" type="submit" value="Submit">
-
-        </form>
+            <button input id="submit" type="submit">Send</button>
+       </form>
 
     </div>
 

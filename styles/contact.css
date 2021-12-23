@@ -3,7 +3,7 @@
     display: block;
     margin: auto;
     margin-top: 5vh;
-    width: 85vw;
+    width: 95vw;
     background: rgb(0, 0, 0);
     color: white;
     padding: .5em;
@@ -30,7 +30,7 @@
 }
 #form
 {
-    width: 85vw;
+    width: 95vw;
     margin: auto;
     margin-top: 2em;
     height: 22em;
@@ -103,7 +103,7 @@
 
 #list
 {
-    width: 85vw;
+    width: 95vw;
     margin: auto;
     margin-top: 2em;
     margin-bottom: 14em;
