@@ -1,0 +1,2 @@
+<h1>Restautant webpage</h1>
+<p>This is my first webpage that I created back in December 2021. Static page with very little Javascript to interact with. I was creating this page for fun just to show my classmates and when I finished it I thought about web development seriously. I can see a great progress I have made just in half a year resulting in pages like <a href="https://pabloberry44.github.io/rainforest/">Rainforest</a>.</p>
